@@ -14,7 +14,6 @@ const storeTodos = (todos) => {
 }
 
 const add = (todo) => {
-  console.log('adding a todo to list');
   const todos = fetchTodos();
   const duplicateTodo = todos.filter(({title}) => title === todo.title);
   if(duplicateTodo.length ===0){
@@ -34,20 +33,19 @@ const remove = (todo) => {
 const list = () => {
   const todos = fetchTodos();
   console.log(`Prininting ${todos.length} todo(s).`)
-  console.log('------------------------------------')
   todos.map((todo)=>log(todo));
 }
 
 const read = (search) => {
   const todos = fetchTodos();
 
-  return(todos.filter( todo => search.title === todo.title )[0]) 
+  return(todos.filter( todo => search.title === todo.title )[0])
 }
 
 const log = (todo) => {
+  console.log('--');
   console.log('Todo: ',todo.title);
   console.log('Body: ', todo.body);
-  console.log('\n');
 }
 
 
