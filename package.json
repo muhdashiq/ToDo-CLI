@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/muhdashiq/ToDo-CLI/issues"
   },
-  "homepage": "https://github.com/muhdashiq/ToDo-CLI#readme"
+  "homepage": "https://github.com/muhdashiq/ToDo-CLI#readme",
+  "dependencies": {
+    "yargs": "^11.0.0"
+  }
 }
