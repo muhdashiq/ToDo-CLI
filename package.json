@@ -1,0 +1,24 @@
+{
+  "name": "todo-cli",
+  "version": "1.0.0",
+  "description": "This a todo list which can be used from CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhdashiq/ToDo-CLI.git"
+  },
+  "keywords": [
+    "todo",
+    "todo-cli",
+    "cli-todo"
+  ],
+  "author": "Muhammed Ashiq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhdashiq/ToDo-CLI/issues"
+  },
+  "homepage": "https://github.com/muhdashiq/ToDo-CLI#readme"
+}
